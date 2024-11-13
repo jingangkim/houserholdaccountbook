@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-yrarddkpd3ue&@8y4-06#^6o$8(+77(@o%sjgaf4p=rlzq2b^d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS: list[str]
+ALLOWED_HOSTS = ['127.0.0.1', '[::1]']
 
 
 # Application definition
@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # 기본 모델
+    "accounts.users",
+    "accounts",
+    "accounts.transactions",
 ]
 
 MIDDLEWARE = [
