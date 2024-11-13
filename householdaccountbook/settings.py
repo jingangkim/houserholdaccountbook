@@ -39,8 +39,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # 기본 모델
     "accounts",
-    "users",
-    "transactions",
+    "accounts.users",
+    "accounts.transactions",
 ]
 
 MIDDLEWARE = [
