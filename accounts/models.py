@@ -2,8 +2,7 @@ from django.db import models
 
 from accounts.constants import BANK_CODES, TRANSACTION_TYPE
 
-from .users.models import User
-
+from users.models import User
 
 # Create your models here.
 # 2. **accounts**: 계좌 정보 관리
